@@ -1,0 +1,76 @@
+
+body{
+
+    background-size: auto;
+
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  /* decoration for the list   */
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav>ul>li{
+    float: left;
+    list-style-type: none;
+
+}
+
+nav>ul>li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+li a:hover{
+    color: #363636;
+    border-radius: 8px;
+    background-color: darkturquoise;
+}
+
+/* control the images size*/
+
+#cheeselogo
+{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+
+}
+
+#hislogo
+{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+.otherCheeseLogo
+{
+    width: 150px;
+    float: left;
+    padding-right: 10px;
+}
+footer{
+    text-align: center;
+}
+h1{
+
+    text-align: left;
+}
+p{
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+
+#header
+{
+    height: 300px;
+}
